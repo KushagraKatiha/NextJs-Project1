@@ -24,7 +24,7 @@ export function Navbar({ className }: { className?: String }) {
         {/* Second Menu Item */}
         <MenuItem setActive={setActive} active={active} item="Our Courses">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/all_courses">All Courses</HoveredLink>
+            <HoveredLink href="/courses">All Courses</HoveredLink>
 
             <HoveredLink href="/guitar_courses">Guitar Courses</HoveredLink>
 
@@ -37,7 +37,7 @@ export function Navbar({ className }: { className?: String }) {
         </MenuItem>
 
         {/* Third Menu Item */}
-        <Link href={"/contact_us"}>
+        <Link href={"/contact"}>
           <MenuItem
             setActive={setActive}
             active={active}
